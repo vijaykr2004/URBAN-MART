@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart | URBAN-MART</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    .page-wrapper {
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">URBAN-MART</a>
+
+  <div class="ml-auto">
+    <a href="index.html" class="btn btn-outline-light btn-sm">Products</a>
+    <a href="login.html" class="btn btn-outline-light btn-sm ml-2">Login</a>
+  </div>
+</nav>
+
+<!-- CART CONTENT -->
+<div class="page-wrapper container mt-5">
+  <h3 class="text-center mb-4">Your Cart</h3>
+
+  <table class="table table-bordered text-center">
+    <thead class="thead-light">
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Men Watch</td>
+        <td>₹1999</td>
+        <td>1</td>
+        <td>₹1999</td>
+      </tr>
+      <tr>
+        <td>Ladies Bag</td>
+        <td>₹1499</td>
+        <td>1</td>
+        <td>₹1499</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="text-right">
+    <h5>Grand Total: ₹3498</h5>
+    <a href="login.html" class="btn btn-success mt-2">Proceed to Checkout</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-secondary text-white text-center py-2 mt-auto">
+  COPYRIGHTS © URBAN-MART.COM
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
 
